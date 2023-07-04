@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# Claimed-based airdrop contract example
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Contract is designed to execute an airdrop of a specific ERC20 token to a pre-defined list of recipient addresses. The contract includes security measures such as role-based access control, time locks for claims, and protection against duplicate claims, ensuring a fair and secure token distribution.
 
-Try running some of the following tasks:
+To build project and run tests use following commands:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+git clone https://github.com/0x6c71777172656474/airdrop.git
+cd airdrop
+npm install
+npm test
 ```
+Every claimer will have fixed claiming amount depends on total recipients in corresponding time 🚀

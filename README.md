@@ -1,4 +1,4 @@
-# Claimed-based airdrop contract example
+# Claim-based airdrop contract example
 
 Contract is designed to execute an airdrop of a specific ERC20 token to a pre-defined list of recipient addresses. The contract includes security measures such as role-based access control, time locks for claims, and protection against duplicate claims, ensuring a fair and secure token distribution.
 
